@@ -6,8 +6,8 @@ export default function Sidebar({
   setPage: (newPage: string) => void;
 }) {
   return (
-    <div className="flex flex-col  bg-white  overflow-hidden ">
-      <ul className="flex flex-col py-2">
+    <div className="flex flex-col  bg-white  overflow-hidden">
+      <ul className="flex flex-col py-2 text-center">
         <li
           className={`${page === "sales" ? "bg-blue-600" : ""}`}
           onClick={() => setPage("sales")}

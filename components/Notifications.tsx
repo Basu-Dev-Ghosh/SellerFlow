@@ -1,6 +1,6 @@
 export default function Notifications() {
   return (
-    <div className="  h-screen overflow-y-auto p-8 w-full">
+    <div className="  h-screen overflow-y-auto p-8 w-[66%] md:w-full">
       <div className="flex items-center justify-between">
         <p
           tabIndex={0}

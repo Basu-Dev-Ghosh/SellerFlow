@@ -147,12 +147,10 @@ export default function Inventory() {
     });
   };
 
-
-  
   return (
     <>
       <Dialog open={open} onOpenChange={setOpen}>
-        <div className="relative overflow-x-auto shadow-md sm:rounded-lg px-8 py-10 w-full">
+        <div className="relative overflow-x-auto shadow-md sm:rounded-lg px-8 py-10 w-[66%] md:w-full">
           <div className="w-full flex justify-end my-2">
             <DialogTrigger asChild>
               <button
