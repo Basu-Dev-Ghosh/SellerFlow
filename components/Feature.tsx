@@ -71,8 +71,10 @@ export const Feature = () => {
         <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1" />
       </div>
       <div className="grid gap-8 row-gap-10 lg:grid-cols-4">
-        {features.map(({ title, description }) => {
-          return <FeatureCard title={title} description={description} />;
+        {features.map(({ title, description }, index) => {
+          return (
+            <FeatureCard title={title} description={description} key={index} />
+          );
         })}
       </div>
     </div>

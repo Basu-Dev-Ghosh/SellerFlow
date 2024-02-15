@@ -8,7 +8,7 @@ export default function Sales() {
             Welcome back, John Doe
           </h1>
           <p className="text-gray-500 text-xs md:text-sm">
-            Here's what's happening with your sales today.
+            Heres what is happening with your sales today.
           </p>
         </div>
         <Dropdown />
