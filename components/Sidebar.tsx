@@ -6,7 +6,7 @@ export default function Sidebar({
   setPage: (newPage: string) => void;
 }) {
   return (
-    <div className="flex flex-col w-56 bg-white  overflow-hidden ">
+    <div className="flex flex-col w-2/4 bg-white  overflow-hidden ">
       <ul className="flex flex-col py-2">
         <li
           className={`${page === "sales" ? "bg-blue-600" : ""}`}

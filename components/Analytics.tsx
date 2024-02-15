@@ -63,7 +63,7 @@ export const data = {
 
 export default function Analytics() {
   return (
-    <div className="flex flex-col px-4 md:px-16 py-4 md:py-16 w-full">
+    <div className="flex flex-col px-4 md:px-16 py-4 md:py-16 w-[66%]">
       <div className="grid grid-rows-4 grid-flow-col gap-4 mt-10">
         <div className="md:row-span-4 bg-blue-300 md:h-52 flex flex-col justify-center items-center py-8 w-3/4">
           <p className=" text-xs text-gray-700">Top Selling Product</p>
